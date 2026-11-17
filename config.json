@@ -1,0 +1,55 @@
+{
+  "license_key": "UNLW-61CX-FXAN-2H6K",
+  "use_vpn": false,
+  "vpn_delay": 9,
+  "cooldown": 10,
+  "threads": 1,
+  "browser": "brave",
+  "captcha_solver": "nonecap",
+  "captcha": {
+    "solver": "nonecap",
+    "nonecap_key": "nc_live_LczUTnXsUr0B32i4Ph33owRTKkRkyC-1",
+    "backup_keys": [
+      "nc_live_Wd6_xX4FYBrnBRoWxV63sWuD2NB4pRTM",
+      "nc_live_MvnYVGjdD4jUzcRTMoMdXBR0Rsm79NWi",
+      "nc_live_7FyXUI0nj7xEJYDbqvIU1J_JAifLo7C5",
+      "nc_live_8errrkDDjowh_Rj-saqKp8cCuLC0ws6d",
+      "nc_live_VeWtoBfgKF2T-phQySu5wCnfqYzV1nJW"
+    ]
+  },
+  "proxy": {
+    "enabled": false,
+    "file": "input/proxies.txt"
+  },
+  "mailcow": {
+    "imap_host": "",
+    "imap_port": 993,
+    "use_ssl": true
+  },
+  "mullvad": {
+    "enabled": false,
+    "country": [
+      "us",
+      "gb",
+      "ca",
+      "au",
+      "de",
+      "nl",
+      "se"
+    ],
+    "auto_login": false,
+    "account_number": "7029952538860479",
+    "account_file": "input/mullvad_accounts.txt"
+  },
+  "urbanvpn": {
+    "enabled": false,
+    "server": "us",
+    "path": ""
+  },
+  "adb": {
+    "enabled": false,
+    "path": "platform-tools\\adb.exe",
+    "host": "127.0.0.1",
+    "port": 5555
+  }
+}
